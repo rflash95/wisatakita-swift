@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4A333228BBB4300070584D /* WisataKitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A333128BBB4300070584D /* WisataKitaApp.swift */; };
+		1C4A333428BBB4300070584D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A333328BBB4300070584D /* ContentView.swift */; };
+		1C4A333628BBB4320070584D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A333528BBB4320070584D /* Assets.xcassets */; };
+		1C4A333928BBB4320070584D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A333828BBB4320070584D /* Preview Assets.xcassets */; };
+		1C4A334328BBB4320070584D /* WisataKitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A334228BBB4320070584D /* WisataKitaTests.swift */; };
+		1C4A334D28BBB4320070584D /* WisataKitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A334C28BBB4320070584D /* WisataKitaUITests.swift */; };
+		1C4A334F28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A334E28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C4A333F28BBB4320070584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C4A332628BBB4300070584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4A332D28BBB4300070584D;
+			remoteInfo = WisataKita;
+		};
+		1C4A334928BBB4320070584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C4A332628BBB4300070584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4A332D28BBB4300070584D;
+			remoteInfo = WisataKita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C4A332E28BBB4300070584D /* WisataKita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisataKita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4A333128BBB4300070584D /* WisataKitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaApp.swift; sourceTree = "<group>"; };
+		1C4A333328BBB4300070584D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C4A333528BBB4320070584D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C4A333828BBB4320070584D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C4A333E28BBB4320070584D /* WisataKitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisataKitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4A334228BBB4320070584D /* WisataKitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaTests.swift; sourceTree = "<group>"; };
+		1C4A334828BBB4320070584D /* WisataKitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisataKitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4A334C28BBB4320070584D /* WisataKitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaUITests.swift; sourceTree = "<group>"; };
+		1C4A334E28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C4A332B28BBB4300070584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4A333B28BBB4320070584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4A334528BBB4320070584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4A332528BBB4300070584D = {
+			isa = PBXGroup;
+			children = (
+				1C4A333028BBB4300070584D /* WisataKita */,
+				1C4A334128BBB4320070584D /* WisataKitaTests */,
+				1C4A334B28BBB4320070584D /* WisataKitaUITests */,
+				1C4A332F28BBB4300070584D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C4A332F28BBB4300070584D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A332E28BBB4300070584D /* WisataKita.app */,
+				1C4A333E28BBB4320070584D /* WisataKitaTests.xctest */,
+				1C4A334828BBB4320070584D /* WisataKitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C4A333028BBB4300070584D /* WisataKita */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A333128BBB4300070584D /* WisataKitaApp.swift */,
+				1C4A333328BBB4300070584D /* ContentView.swift */,
+				1C4A333528BBB4320070584D /* Assets.xcassets */,
+				1C4A333728BBB4320070584D /* Preview Content */,
+			);
+			path = WisataKita;
+			sourceTree = "<group>";
+		};
+		1C4A333728BBB4320070584D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A333828BBB4320070584D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C4A334128BBB4320070584D /* WisataKitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A334228BBB4320070584D /* WisataKitaTests.swift */,
+			);
+			path = WisataKitaTests;
+			sourceTree = "<group>";
+		};
+		1C4A334B28BBB4320070584D /* WisataKitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A334C28BBB4320070584D /* WisataKitaUITests.swift */,
+				1C4A334E28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift */,
+			);
+			path = WisataKitaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C4A332D28BBB4300070584D /* WisataKita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4A335228BBB4320070584D /* Build configuration list for PBXNativeTarget "WisataKita" */;
+			buildPhases = (
+				1C4A332A28BBB4300070584D /* Sources */,
+				1C4A332B28BBB4300070584D /* Frameworks */,
+				1C4A332C28BBB4300070584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisataKita;
+			productName = WisataKita;
+			productReference = 1C4A332E28BBB4300070584D /* WisataKita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C4A333D28BBB4320070584D /* WisataKitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4A335528BBB4320070584D /* Build configuration list for PBXNativeTarget "WisataKitaTests" */;
+			buildPhases = (
+				1C4A333A28BBB4320070584D /* Sources */,
+				1C4A333B28BBB4320070584D /* Frameworks */,
+				1C4A333C28BBB4320070584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C4A334028BBB4320070584D /* PBXTargetDependency */,
+			);
+			name = WisataKitaTests;
+			productName = WisataKitaTests;
+			productReference = 1C4A333E28BBB4320070584D /* WisataKitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C4A334728BBB4320070584D /* WisataKitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4A335828BBB4320070584D /* Build configuration list for PBXNativeTarget "WisataKitaUITests" */;
+			buildPhases = (
+				1C4A334428BBB4320070584D /* Sources */,
+				1C4A334528BBB4320070584D /* Frameworks */,
+				1C4A334628BBB4320070584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C4A334A28BBB4320070584D /* PBXTargetDependency */,
+			);
+			name = WisataKitaUITests;
+			productName = WisataKitaUITests;
+			productReference = 1C4A334828BBB4320070584D /* WisataKitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C4A332628BBB4300070584D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1C4A332D28BBB4300070584D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1C4A333D28BBB4320070584D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1C4A332D28BBB4300070584D;
+					};
+					1C4A334728BBB4320070584D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1C4A332D28BBB4300070584D;
+					};
+				};
+			};
+			buildConfigurationList = 1C4A332928BBB4300070584D /* Build configuration list for PBXProject "WisataKita" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C4A332528BBB4300070584D;
+			productRefGroup = 1C4A332F28BBB4300070584D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C4A332D28BBB4300070584D /* WisataKita */,
+				1C4A333D28BBB4320070584D /* WisataKitaTests */,
+				1C4A334728BBB4320070584D /* WisataKitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C4A332C28BBB4300070584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A333928BBB4320070584D /* Preview Assets.xcassets in Resources */,
+				1C4A333628BBB4320070584D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4A333C28BBB4320070584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4A334628BBB4320070584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4A332A28BBB4300070584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A333428BBB4300070584D /* ContentView.swift in Sources */,
+				1C4A333228BBB4300070584D /* WisataKitaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4A333A28BBB4320070584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A334328BBB4320070584D /* WisataKitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4A334428BBB4320070584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A334F28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift in Sources */,
+				1C4A334D28BBB4320070584D /* WisataKitaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C4A334028BBB4320070584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C4A332D28BBB4300070584D /* WisataKita */;
+			targetProxy = 1C4A333F28BBB4320070584D /* PBXContainerItemProxy */;
+		};
+		1C4A334A28BBB4320070584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C4A332D28BBB4300070584D /* WisataKita */;
+			targetProxy = 1C4A334928BBB4320070584D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C4A335028BBB4320070584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C4A335128BBB4320070584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C4A335328BBB4320070584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WisataKita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzamau.me.WisataKita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C4A335428BBB4320070584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WisataKita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzamau.me.WisataKita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C4A335628BBB4320070584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzamau.me.WisataKitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisataKita.app/WisataKita";
+			};
+			name = Debug;
+		};
+		1C4A335728BBB4320070584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzamau.me.WisataKitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisataKita.app/WisataKita";
+			};
+			name = Release;
+		};
+		1C4A335928BBB4320070584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzamau.me.WisataKitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WisataKita;
+			};
+			name = Debug;
+		};
+		1C4A335A28BBB4320070584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rzamau.me.WisataKitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WisataKita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C4A332928BBB4300070584D /* Build configuration list for PBXProject "WisataKita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A335028BBB4320070584D /* Debug */,
+				1C4A335128BBB4320070584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4A335228BBB4320070584D /* Build configuration list for PBXNativeTarget "WisataKita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A335328BBB4320070584D /* Debug */,
+				1C4A335428BBB4320070584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4A335528BBB4320070584D /* Build configuration list for PBXNativeTarget "WisataKitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A335628BBB4320070584D /* Debug */,
+				1C4A335728BBB4320070584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4A335828BBB4320070584D /* Build configuration list for PBXNativeTarget "WisataKitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A335928BBB4320070584D /* Debug */,
+				1C4A335A28BBB4320070584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C4A332628BBB4300070584D /* Project object */;
+}
