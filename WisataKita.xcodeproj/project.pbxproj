@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1A279628BD77AB002D2DB9 /* CardPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A279528BD77AB002D2DB9 /* CardPlaceView.swift */; };
 		1C4A333228BBB4300070584D /* WisataKitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A333128BBB4300070584D /* WisataKitaApp.swift */; };
 		1C4A333428BBB4300070584D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A333328BBB4300070584D /* ContentView.swift */; };
 		1C4A333628BBB4320070584D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A333528BBB4320070584D /* Assets.xcassets */; };
@@ -14,6 +15,12 @@
 		1C4A334328BBB4320070584D /* WisataKitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A334228BBB4320070584D /* WisataKitaTests.swift */; };
 		1C4A334D28BBB4320070584D /* WisataKitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A334C28BBB4320070584D /* WisataKitaUITests.swift */; };
 		1C4A334F28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A334E28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift */; };
+		1C4A335D28BC41090070584D /* DetailViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A335C28BC41090070584D /* DetailViewScreen.swift */; };
+		1C4A335F28BC41290070584D /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A335E28BC41290070584D /* HomeViewScreen.swift */; };
+		1C4A336128BC5FCD0070584D /* CardTrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A336028BC5FCD0070584D /* CardTrendingView.swift */; };
+		1C58E44028BC7B6D00CCA60D /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58E43F28BC7B6D00CCA60D /* PlaceModel.swift */; };
+		1C58E44228BC868A00CCA60D /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58E44128BC868A00CCA60D /* CardModifier.swift */; };
+		1C9DCE7028C05B9D00FDE327 /* ProfileViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DCE6F28C05B9D00FDE327 /* ProfileViewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1A279528BD77AB002D2DB9 /* CardPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPlaceView.swift; sourceTree = "<group>"; };
 		1C4A332E28BBB4300070584D /* WisataKita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisataKita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4A333128BBB4300070584D /* WisataKitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaApp.swift; sourceTree = "<group>"; };
 		1C4A333328BBB4300070584D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,12 @@
 		1C4A334828BBB4320070584D /* WisataKitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisataKitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4A334C28BBB4320070584D /* WisataKitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaUITests.swift; sourceTree = "<group>"; };
 		1C4A334E28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataKitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C4A335C28BC41090070584D /* DetailViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewScreen.swift; sourceTree = "<group>"; };
+		1C4A335E28BC41290070584D /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
+		1C4A336028BC5FCD0070584D /* CardTrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTrendingView.swift; sourceTree = "<group>"; };
+		1C58E43F28BC7B6D00CCA60D /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		1C58E44128BC868A00CCA60D /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		1C9DCE6F28C05B9D00FDE327 /* ProfileViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,13 @@
 		1C4A333028BBB4300070584D /* WisataKita */ = {
 			isa = PBXGroup;
 			children = (
+				1C4A335B28BBB4860070584D /* component */,
 				1C4A333128BBB4300070584D /* WisataKitaApp.swift */,
 				1C4A333328BBB4300070584D /* ContentView.swift */,
+				1C4A335E28BC41290070584D /* HomeViewScreen.swift */,
+				1C4A335C28BC41090070584D /* DetailViewScreen.swift */,
+				1C9DCE6F28C05B9D00FDE327 /* ProfileViewScreen.swift */,
+				1C58E43F28BC7B6D00CCA60D /* PlaceModel.swift */,
 				1C4A333528BBB4320070584D /* Assets.xcassets */,
 				1C4A333728BBB4320070584D /* Preview Content */,
 			);
@@ -125,6 +144,16 @@
 				1C4A334E28BBB4320070584D /* WisataKitaUITestsLaunchTests.swift */,
 			);
 			path = WisataKitaUITests;
+			sourceTree = "<group>";
+		};
+		1C4A335B28BBB4860070584D /* component */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A336028BC5FCD0070584D /* CardTrendingView.swift */,
+				1C58E44128BC868A00CCA60D /* CardModifier.swift */,
+				1C1A279528BD77AB002D2DB9 /* CardPlaceView.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1A279628BD77AB002D2DB9 /* CardPlaceView.swift in Sources */,
 				1C4A333428BBB4300070584D /* ContentView.swift in Sources */,
+				1C58E44028BC7B6D00CCA60D /* PlaceModel.swift in Sources */,
+				1C4A335F28BC41290070584D /* HomeViewScreen.swift in Sources */,
+				1C4A336128BC5FCD0070584D /* CardTrendingView.swift in Sources */,
+				1C9DCE7028C05B9D00FDE327 /* ProfileViewScreen.swift in Sources */,
+				1C4A335D28BC41090070584D /* DetailViewScreen.swift in Sources */,
+				1C58E44228BC868A00CCA60D /* CardModifier.swift in Sources */,
 				1C4A333228BBB4300070584D /* WisataKitaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +469,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
